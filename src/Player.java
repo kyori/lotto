@@ -6,7 +6,8 @@ public class Player {
 	 */
 	public static void main(String[] args) {
 		Lotto lotto = new Lotto();
-		lotto.printLotto();
+		int[] numbers =
+		lotto.getLotto();
 	}
 
 }
